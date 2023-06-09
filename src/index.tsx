@@ -8,7 +8,6 @@ import { unstable_HistoryRouter as BrowserRouter } from "react-router-dom";
 import "./index.css";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
-import { store, StoreContext } from "./api/main/appStore";
 
 export const customHistory = createBrowserHistory();
 
@@ -18,9 +17,8 @@ const root = ReactDOM.createRoot(
 
 root.render(
   <BrowserRouter history={customHistory}>
-    <StoreContext.Provider value={store}>
       <App />
-    </StoreContext.Provider>
+    
   </BrowserRouter>
 );
 

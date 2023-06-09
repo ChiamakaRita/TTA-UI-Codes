@@ -3,12 +3,9 @@ import * as Yup from "yup";
 import { Link } from "react-router-dom";
 import { Button, Divider } from "semantic-ui-react";
 import "./Footer.css";
-import { CustomTextInput } from "../custom-input/CustomInputs";
 import { observer } from "mobx-react-lite";
-import { useStore } from "../../../api/main/appStore";
 
 export default observer(function Footer() {
-  const { userAccountStore } = useStore();
 
   return (
     <footer className="foot-container">
@@ -52,45 +49,43 @@ export default observer(function Footer() {
           </ul>
         </div>
 
-        <div className="col-lg-4 newsletter">
+        {/* <div className="col-lg-4 newsletter">
           <h3 className="mt-lg-0 mt-3">NEWSLETTER</h3>
           <span className="company-description">
             Subscribe to our newseletter and we will inform you about The Truck
             Arena newest projects and how they benefit your business.
           </span>
-          <br />
+          <br /> */}
 
-          <Formik
+          {/* <Formik
             initialValues={{ emailAddress: "", error: null }}
-            onSubmit={(values) =>
-              userAccountStore.subscribeNewsLetter(values.emailAddress)
-            }
+            onSubmit={(values) => subscribeNewsLetter(values.emailAddress)}
             validationSchema={Yup.object({
               emailAddress: Yup.string()
                 .required("Your email is required")
                 .email(),
             })}
           >
-            {({ isSubmitting, isValid, dirty }) => (
-              <Form className="ui form">
+            {({ isSubmitting, isValid, dirty }) => ( */}
+              {/* <Form className="ui form">
                 <CustomTextInput
                   name="emailAddress"
                   placeholder="Enter your email address"
-                />
+                /> */}
 
-                <Button
+                {/* <Button
                   loading={isSubmitting}
                   content="subscribe"
                   type="submit"
                   disabled={!isValid || !dirty}
                   color="vk"
                   className="official-form-btn footer_btn"
-                />
-              </Form>
-            )}
-          </Formik>
+                /> */}
+              {/* </Form> */}
+            {/* )} */}
+          {/* </Formik> */}
         </div>
-      </div>
+      {/* </div> */}
 
       <Divider />
 

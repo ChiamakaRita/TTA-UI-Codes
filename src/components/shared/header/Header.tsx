@@ -2,18 +2,13 @@ import React, { useState } from "react";
 import { observer } from "mobx-react-lite";
 import { Link, NavLink } from "react-router-dom";
 import { Icon } from "semantic-ui-react";
-import { useStore } from "../../../api/main/appStore";
-import { adminFeatureLinks } from "../../../local-data/shared/adminFeatureLinks";
 import { headerLinksData } from "../../../local-data/shared/headerLinksData";
-import AccountTypeForm from "../../user-account/register/AccountTypeForm";
-import DropdownNav from "../dropdown/DropdownNav";
 import "./Header.css";
 import Logo from "../../../assets/images/truck_arena_logo.png";
 import ServiceDropdown from "../service-dropdown/ServiceDropdown";
 import { IoMdArrowDropdown } from "react-icons/io";
 
 export default observer(function Header() {
-  const { commonStore, userAccountStore } = useStore();
   const [dropdown, setDropdown] = useState(false);
 
     const onMouseEnter = () => {
@@ -138,7 +133,7 @@ export default observer(function Header() {
       </div>
       <div
         className="drawer-nav-bar pointer-cursor"
-        onClick={() => commonStore.setDrawerVisible(true)}
+        // onClick={() => commonStore.setDrawerVisible(true)}
       >
         <Icon name="bars" />
       </div>
