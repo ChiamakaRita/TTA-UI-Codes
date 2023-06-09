@@ -1,0 +1,47 @@
+.available-trucks-table {
+  background-color: rgba(255, 255, 255, 0.668);
+  padding: 1rem;
+  border-radius: 10px;
+}
+
+.available-trucks-btn {
+  background-color: rgba(0, 66, 128, 0.7) !important;
+  color: #fff !important;
+  border-radius: 2rem !important;
+}
+.available-trucks-danger {
+  background-color: rgba(255, 0, 0, 0.555) !important;
+  color: #fff !important;
+  border-radius: 2rem !important;
+}
+
+.available-trucks-btn:hover {
+  background-color: rgba(0, 66, 128, 1) !important;
+}
+
+.available-trucks-title {
+  color: rgba(255, 255, 255, 0.829);
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 2px;
+  font-size: 1.4rem;
+}
+
+.available-trucks-des {
+  color: rgba(0, 0, 0, 0.6);
+  letter-spacing: 1px;
+  font-weight: 900;
+}
+
+.request-modal-title {
+  color: navy;
+  border-bottom: 2px solid rgb(192, 83, 43);
+  display: inline-block;
+  padding-bottom: 5px;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+.request-modal-text {
+  letter-spacing: 1px;
+  color: #666;
+}

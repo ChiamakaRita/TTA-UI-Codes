@@ -1,0 +1,17 @@
+.available-tracker-title {
+  font-size: 1.4rem;
+  font-weight: 600;
+  color: rgba(11, 11, 63, 0.678);
+}
+
+.available-tracker-route {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: rgba(255, 68, 0, 0.671);
+}
+
+h5 {
+  font-size: 1rem;
+  color: #666;
+  font-weight: 600;
+}

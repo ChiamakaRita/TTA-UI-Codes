@@ -1,0 +1,13 @@
+.export-button {
+  cursor: pointer;
+  background-color: rgba(190, 84, 45, 0.9);
+  width: fit-content;
+  padding: 0.4rem;
+  margin: 1rem 0;
+  color: #fff;
+  border-radius: 5px;
+}
+
+.export-button:hover {
+  background-color: rgba(204, 72, 24, 0.952);
+}

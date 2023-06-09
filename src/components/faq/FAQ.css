@@ -1,0 +1,56 @@
+.block {
+  padding: 60px 0;
+  
+}
+.container-fluid {
+  margin: 0 auto;
+  max-width: 1200px;
+  padding: 0 15px;
+  font-family: 'Roboto', sans-serif;
+}
+a:link{
+  text-decoration: none;
+}
+.panel{
+  font-size: 18px;
+  font-weight: lighter;
+  color: #777;
+}
+.panel p{
+  font-weight: lighter;
+  font-size: 16px;
+}
+.titleHolder {
+  text-align: center;
+  position: relative;
+  padding: 0 0 20px;
+  margin: 0 0 40px;
+ 
+}
+.faqBlock .ant-collapse {
+  margin: 0 0 40px;
+}
+
+.faqBlock .quickSupport {
+  text-align: center;
+  max-width: 740px;
+  margin: auto;
+   font-family: 'Roboto', sans-serif;
+   font-size: 16px;
+}
+
+.faqBlock .fas {
+  margin: 0 10px 0 0;
+}
+.faq-btn{
+  border: 1px solid #777;
+  padding: 5px 2rem;
+  border-radius: 2rem;
+  text-decoration: none;
+  display: inline-block;
+  margin-top: 1rem;
+  cursor: pointer;
+  background-color: #bb0409;
+  color: #fff;
+   font-family: 'Roboto', sans-serif;
+}

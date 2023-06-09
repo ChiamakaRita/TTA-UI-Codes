@@ -1,0 +1,29 @@
+.partners-client_box {
+  background-color: #fff;
+  padding: 2rem;
+}
+
+.partner-img {
+  width: auto;
+  max-height: 15vh;
+}
+
+.client-logos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.partner-client_heading {
+  color: rgba(0, 0, 0, 0.671);
+  font-size: 1.4rem;
+  font-weight: 600;
+  letter-spacing: 2px;
+  font-family: "Sansita Swashed", cursive;
+}
+
+@media screen and (max-width: 600px) {
+  .partner-img {
+    max-height: 4vh;
+  }
+}

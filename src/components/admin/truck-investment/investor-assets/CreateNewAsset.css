@@ -1,0 +1,24 @@
+.new-asset-form {
+  width: 50%;
+  background-color: #fff;
+  margin: 1rem auto;
+}
+
+.new-asset-form-title {
+  font-size: 1.3rem;
+  text-align: center;
+  color: rgb(4, 4, 49);
+  font-weight: 600;
+}
+
+.new-asset-back {
+  color: rgb(4, 4, 68);
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 700px) {
+  .new-asset-form {
+    width: 90%;
+  }
+}

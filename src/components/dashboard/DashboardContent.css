@@ -1,0 +1,39 @@
+.dashboard-content-box {
+  background-color: rgba(0, 0, 128, 0.144);
+  min-height: 100vh;
+  position: relative;
+}
+
+.dashboard-content {
+  padding: 2rem;
+  background-color: rgba(255, 255, 255, 0.856);
+  position: absolute;
+  top: 1rem;
+  left: 3rem;
+  right: 3rem;
+}
+
+.dashboard-content h3 {
+  font-family: "Roboto";
+  font-weight: 500;
+  color: #777;
+  font-size: 1.3rem;
+}
+
+.dashboard-subscriptions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+@media screen and (max-width: 700px) {
+  .dashboard-subscriptions {
+    width: 100%;
+    margin-top: 1.3rem;
+  }
+
+  .dashboard-content {
+    left: 0.8rem;
+    right: 0.8rem;
+  }
+}

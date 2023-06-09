@@ -1,0 +1,71 @@
+.pricewatch-get-started {
+  min-height: 90vh;
+  background-color: rgba(255, 255, 255, 0.74);
+  width: 80%;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.pricewatch-get-started h1 {
+  font-family: "Sansita Swashed", sans-serif;
+  font-size: 2.2rem;
+  display: inline-block;
+  letter-spacing: 1px;
+  text-transform: capitalize;
+  border-bottom: 0.3rem solid darkred;
+  padding-bottom: 5px;
+}
+
+.pricewatch-get-started p {
+  font-size: 1.3rem;
+  line-height: 1.6;
+  color: #333;
+}
+
+.pricewatch-get-started h4 {
+  color: #444;
+  font-size: 1.3rem;
+}
+
+.routes-container {
+  display: flex;
+  gap: 1rem;
+  margin: 1rem 0;
+  align-items: center;
+}
+
+.route-remove-btn {
+  border: none;
+  padding: 5px 10px;
+  text-align: center;
+  border-radius: 50%;
+  color: rgba(0, 0, 0, 0.863);
+}
+
+.route-box {
+  flex-grow: 1;
+}
+
+.arrow-direction {
+  color: rgba(139, 0, 0, 0.616);
+  font-size: 1.5rem !important;
+}
+
+.base-requirement {
+  width: 30%;
+}
+
+@media screen and (max-width: 700px) {
+  .pricewatch-get-started {
+    width: 95%;
+  }
+  .pricewatch-get-started h1 {
+    font-size: 1.5rem;
+  }
+  .pricewatch-get-started p {
+    font-size: 1rem;
+  }
+  .pricewatch-get-started h4 {
+    font-size: 1rem;
+  }
+}

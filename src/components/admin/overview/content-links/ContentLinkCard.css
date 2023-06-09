@@ -1,0 +1,30 @@
+.content-link-card-box {
+  background-color: rgba(4, 4, 59, 0.8);
+  color: #fff;
+  display: inline-block;
+  padding: 1rem;
+  font-size: 1.2rem;
+  text-decoration: none;
+  width: 15rem;
+}
+
+.content-link-card-box:hover {
+  background-color: rgba(4, 4, 59, 1);
+  color: #fff;
+}
+
+.content-link-card-icon {
+  font-size: 1.3rem;
+  text-align: center;
+}
+
+.content-link-card-name {
+  text-align: center;
+  box-decoration-break: clone;
+}
+
+@media screen and (max-width: 700px) {
+  .content-link-card-box {
+    width: 10rem;
+  }
+}

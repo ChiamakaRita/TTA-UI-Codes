@@ -1,0 +1,28 @@
+.expense-container {
+  display: flex;
+  gap: 1rem;
+  margin: 1rem 0;
+  align-items: center;
+}
+
+.expense-title {
+  flex-grow: 1;
+}
+
+.expense-remove-btn {
+  border: none;
+  padding: 5px 10px;
+  text-align: center;
+  border-radius: 50%;
+  color: rgb(143, 24, 24);
+}
+
+.expense-add-btn {
+  border: 0;
+  padding: 5px 10px;
+  text-align: center;
+  color: rgb(11, 90, 11);
+  display: block;
+  font-weight: 600;
+  margin-left: auto;
+}

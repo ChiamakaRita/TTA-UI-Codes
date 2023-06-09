@@ -1,0 +1,11 @@
+.success-display-container {
+  background-color: rgb(46, 204, 113);
+  color: rgba(255, 255, 255, 1);
+  text-align: center;
+  margin: 0;
+  padding-top: 1rem;
+}
+
+.success-display-message-close {
+  cursor: pointer;
+}

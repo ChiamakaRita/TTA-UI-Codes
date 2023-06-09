@@ -1,0 +1,24 @@
+.what-we-bring {
+  padding: 2rem 4rem;
+}
+
+.what-we-bring h2 {
+  font-family: "Roboto";
+  font-size: 1.5rem;
+}
+
+.what-we-bring p {
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #555;
+}
+
+.what-we-bring-img {
+  max-width: 75%;
+}
+
+@media screen and (max-width: 700px) {
+  .what-we-bring-img {
+    max-width: 100%;
+  }
+}

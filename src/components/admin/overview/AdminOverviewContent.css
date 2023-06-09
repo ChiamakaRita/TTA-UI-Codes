@@ -1,0 +1,36 @@
+.admin-bg {
+  min-height: 100vh;
+  background: linear-gradient(
+      60deg,
+      rgba(27, 20, 100, 0.2),
+      rgba(27, 20, 100, 0.2)
+    ),
+    url("../../../static-assets/images/admin-bg.jpg");
+  background-size: cover;
+  background-position: 80% 20%;
+  background-repeat: no-repeat;
+  margin-top: -1px;
+  position: relative;
+}
+
+.admin-content-bg {
+  background: white;
+  position: absolute;
+  top: 2rem;
+  left: 5rem;
+  right: 5rem;
+  padding: 1rem;
+}
+
+.admin-content-cards {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+@media screen and (max-width: 700px) {
+  .admin-content-bg {
+    left: 1rem;
+    right: 1rem;
+  }
+}

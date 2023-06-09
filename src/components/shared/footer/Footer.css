@@ -1,0 +1,57 @@
+.foot-container {
+  background-color: #0c1723;
+  color: #eee;
+  bottom: 0;
+}
+
+.footer-container{
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: center;
+}
+.foot-container h3 {
+  font-size: 1rem;
+}
+
+.footer-row {
+  padding: 3em 9rem 3rem 0rem;
+}
+
+.company-description {
+  color: #ccc;
+  line-height: 1.4;
+  display: block;
+  font-size: 0.9rem;
+}
+
+.quick-links-container {
+  list-style-type: circle;
+}
+
+.quick-links {
+  color: #aaa;
+  font-size: 0.9rem;
+}
+
+.quick-links:hover {
+  text-decoration: underline;
+  color: #ccc;
+}
+
+.copy-right-text {
+  font-size: 0.9rem;
+}
+.newsletter{
+  margin-top: 28px;
+}
+.quick_links_container{
+  margin-bottom: 38px;
+}
+
+@media screen and (max-width:940px) {
+  .footer-container{
+    margin: 0 auto 0 40px;
+  }
+
+}

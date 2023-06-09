@@ -1,0 +1,15 @@
+.landing-second_view {
+  background-color: #eee;
+  display: flex;
+}
+
+.landing-second_view > div {
+  padding: 3rem 2rem;
+  
+}
+
+@media screen and (max-width: 500px) {
+  .landing-second_view {
+    display: block;
+  }
+}

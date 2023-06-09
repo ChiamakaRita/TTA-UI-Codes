@@ -1,0 +1,92 @@
+.whats-new {
+  padding: 2rem 4rem;
+}
+
+.whats-new_title {
+  color: rgba(0, 0, 0, 0.671);
+  font-weight: 600;
+  letter-spacing: 2px;
+  font-family: "Sansita Swashed", cursive;
+  font-size: 2rem;
+}
+
+.whats-new_heading {
+  color: rgba(37, 64, 153, 0.6);
+  font-size: 2rem;
+  text-align: center;
+}
+
+.whats-new_card-side__back-1 {
+  background-image: linear-gradient(
+    to right bottom,
+    rgba(41, 128, 185, 1),
+    rgba(41, 128, 185, 0.6)
+  );
+}
+.whats-new_card-side__back-2 {
+  background-image: linear-gradient(
+    to right bottom,
+    rgba(68, 189, 50, 1),
+    rgba(68, 189, 50, 0.6)
+  );
+}
+.whats-new_card-side__back-3 {
+  background-image: linear-gradient(
+    to right bottom,
+    rgba(225, 177, 44, 1),
+    rgba(225, 177, 44, 0.6)
+  );
+}
+
+.product-card_picture-1 {
+  background-image: linear-gradient(
+      45deg,
+      rgba(41, 128, 185, 1),
+      rgba(41, 128, 185, 1)
+    ),
+    url("../../../static-assets/images/route-watch-img.jpg");
+}
+.product-card_picture-2 {
+  background-image: linear-gradient(
+      45deg,
+      rgba(68, 189, 50, 1),
+      rgba(68, 189, 50, 1)
+    ),
+    url("../../../static-assets/images/truck-invest-img.png");
+}
+.product-card_picture-3 {
+  background-image: linear-gradient(
+      45deg,
+      rgba(225, 177, 44, 1),
+      rgba(225, 177, 44, 1)
+    ),
+    url("../../../static-assets/images/price-watch-img.jpg");
+}
+
+.product-card_span-1 {
+  background-image: linear-gradient(
+    to right bottom,
+    rgba(41, 128, 185, 0.8),
+    rgba(41, 128, 185, 0.5)
+  );
+}
+.product-card_span-2 {
+  background-image: linear-gradient(
+    to right bottom,
+    rgba(68, 189, 50, 0.8),
+    rgba(68, 189, 50, 0.5)
+  );
+}
+.product-card_span-3 {
+  background-image: linear-gradient(
+    to right bottom,
+    rgba(225, 177, 44, 0.8),
+    rgba(225, 177, 44, 0.5)
+  );
+}
+
+@media screen and (max-width: 700px) {
+  .whats-new {
+    padding: 2rem 1rem;
+  }
+}

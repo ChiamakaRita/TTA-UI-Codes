@@ -1,0 +1,75 @@
+.truck-weekly_box {
+  display: flex;
+  gap: 5%;
+  padding: 2rem 4rem;
+}
+
+.truck-weekly_box-heading {
+  font-family: "Sansita Swashed", cursive;
+  font-size: 2.3rem;
+}
+
+.truck-weekly_box-left {
+  width: 50%;
+  animation: moveup 1s;
+  animation-timing-function: ease-in-out;
+  text-align: center;
+  color: #eee;
+}
+
+.truck-weekly_box-right {
+  width: 45%;
+  align-self: center;
+  animation-timing-function: ease-in-out;
+  text-align: center;
+  color: #eee;
+}
+
+.truck-weekly_table-head th {
+  color: #fff;
+  font-weight: lighter;
+}
+
+table.truck-weekly_table {
+  border-collapse: separate;
+  border-spacing: 0 15px;
+}
+
+.truck-weekly_table-row {
+  background-color: rgba(255, 255, 255, 0.6);
+  padding: 2rem;
+  border-radius: 10px;
+}
+
+.truck-weekly_box-right-btn {
+  border: 2px solid #ccc;
+  border-radius: 2rem;
+  padding: 5px 2rem;
+  cursor: pointer;
+  font-weight: 500;
+  margin-top: 1rem;
+  display: inline-block;
+  animation-timing-function: ease-in-out;
+}
+
+.truck-weekly_box-right-btn:hover {
+  background-color: #fff;
+  color: #666;
+}
+
+.market-outlook-heading {
+  font-size: 1rem !important;
+}
+
+@media screen and (max-width: 700px) {
+  .truck-weekly_box {
+    display: block;
+  }
+  .truck-weekly_box-left {
+    width: 100%;
+  }
+  .truck-weekly_box-right {
+    width: 100%;
+    margin-top: 10px;
+  }
+}

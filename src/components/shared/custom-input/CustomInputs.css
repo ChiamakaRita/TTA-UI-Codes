@@ -1,0 +1,97 @@
+.text-input {
+  padding: 0.4rem;
+  border: 1px solid #ccc;
+  font-size: 1rem;
+  font-weight: 500;
+  width: 100%;
+  background-color: #ffffff;
+  border-radius: 3px;
+  outline: none;
+  height: 2.6rem;
+}
+
+.text-area {
+  padding: 0.4rem;
+  border: 1px solid #ccc;
+  font-size: 1rem;
+  font-weight: 500;
+  width: 100%;
+  background-color: #ffffff;
+  border-radius: 3px;
+  outline: none;
+}
+
+.text-input:disabled {
+  background-color: #f5f6fa42;
+  opacity: 0.6;
+}
+
+.input-label {
+  display: block;
+  font-size: 0.8rem;
+  font-weight: 600;
+  opacity: 0.8;
+  letter-spacing: 1px;
+}
+
+.input-error {
+  border: 1px solid red;
+}
+
+.input-text-error {
+  color: red;
+  font-size: 0.85rem;
+}
+
+.input-with-btn-box {
+  display: flex;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+.text-input-with-btn {
+  padding: 0.4rem;
+  border: none;
+  font-size: 1rem;
+  font-weight: 500;
+  width: 100%;
+  background-color: #fff;
+  height: 2.6rem;
+  border-radius: 3px;
+}
+
+.text-input-with-btn:focus {
+  outline: none;
+}
+
+.input-btn {
+  border: none;
+  padding: 0.4rem;
+}
+
+.is-copied {
+  background-color: green;
+  color: white;
+}
+.done-copy {
+  color: #222;
+}
+
+.inline-text-input {
+  padding: 0.4rem;
+  border: 1px solid #ccc;
+  font-size: 1rem;
+  font-weight: 500;
+  background-color: transparent;
+}
+
+.inline-text-input:focus {
+  outline: none;
+}
+
+.checkbox-style {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  margin: 10px 0;
+}

@@ -1,0 +1,7 @@
+.pagination-container {
+  overflow-x: scroll;
+}
+
+.pagination-container::-webkit-scrollbar {
+  display: none;
+}

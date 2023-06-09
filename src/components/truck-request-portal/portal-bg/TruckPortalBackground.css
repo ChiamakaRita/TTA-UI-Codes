@@ -1,0 +1,8 @@
+.truck-portal-container {
+  min-height: 90vh;
+  background: linear-gradient(60deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.1)),
+    url("../../../static-assets/images/truck-portal-bg.webp");
+  background-size: cover;
+  background-position: 30% 70%;
+  margin-top: -1px;
+}

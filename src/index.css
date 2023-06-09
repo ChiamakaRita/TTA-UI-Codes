@@ -1,0 +1,79 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+}
+
+* {
+  box-sizing: border-box;
+  line-height: 1.5;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+.fadeIn {
+  animation: fadeInAnimation 2s linear;
+}
+
+.custom-default-tab-header {
+  text-align: center;
+  border-bottom: 1px solid #eee;
+  padding: 1rem 0;
+}
+
+.custom-default-tab-header-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-transform: capitalize;
+  color: #666;
+}
+
+.official-form-btn {
+  margin-top: 0.5rem !important;
+}
+
+.shadow-card {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.lines-both:before,
+.lines-both:after {
+  background-color: rgba(30, 30, 46, 0.216);
+  content: "";
+  display: inline-block;
+  height: 1px;
+  position: relative;
+  vertical-align: middle;
+  width: 20%;
+}
+
+@media screen and (max-width: 700px) {
+  html {
+    font-size: 68%;
+    font-weight: 600;
+  }
+
+  .official-form-btn {
+    margin: 1rem auto 0 auto !important;
+    width: 90% !important;
+    padding: 0.7rem 0 !important;
+    font-size: 1.3rem !important;
+    border-radius: 3rem !important;
+    display: block !important;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px !important;
+  }
+}
+
+@keyframes fadeInAnimation {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}

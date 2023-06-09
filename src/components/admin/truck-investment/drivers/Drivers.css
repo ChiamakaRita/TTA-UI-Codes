@@ -1,0 +1,10 @@
+.truck-driver {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.truck-driver h5 {
+  font-weight: 600;
+}

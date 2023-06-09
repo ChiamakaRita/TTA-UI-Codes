@@ -1,0 +1,22 @@
+.route-watch-overview {
+  background-color: #eee;
+  padding: 1rem 2rem;
+  margin-top: -1px;
+  min-height: 100vh;
+}
+
+.route-watch-overview .name {
+  text-transform: capitalize;
+  margin-bottom: 1rem;
+  font-size: 2rem;
+  font-weight: bold;
+  letter-spacing: 2px;
+  color: #2c3e50;
+}
+
+.route-watch-overview .features {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin: 2rem;
+}

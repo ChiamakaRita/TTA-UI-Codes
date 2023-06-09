@@ -1,0 +1,46 @@
+.timeline-container {
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  color: rgb(53, 53, 53);
+  background-color: bisque;
+  min-height: 100vh;
+}
+
+.timeline-box {
+  padding: 2rem 12rem;
+}
+
+.timeline-container .title {
+  font-size: 3rem;
+  text-align: center;
+}
+
+.timeline-container h3 {
+  padding-top: 0.25em;
+}
+
+.timeline-box .date-added {
+  color: #777;
+  font-size: 1rem;
+}
+
+.vertical-timeline-element-content {
+  box-shadow: 0 0.25em 0.5em 0 rgba(0, 0, 0, 0.25),
+    0 0.4em 1.25em 0 rgba(0, 0, 0, 0.15) !important;
+  padding: 2rem !important;
+}
+.back-arrow {
+  display: inline-block;
+  background-color: #fff;
+  padding: 10px 40px;
+  margin: 20px 0 0 20px;
+  cursor: pointer;
+  border-radius: 5px;
+  color: #000;
+}
+
+@media screen and (max-width: 800px) {
+  .timeline-box {
+    padding: 2rem 0;
+  }
+}

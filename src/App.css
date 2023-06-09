@@ -1,0 +1,11 @@
+.page-container {
+  display: flex;
+  flex-direction: column;
+}
+.content-wrap {
+  flex: 1;
+}
+
+.pointer-cursor {
+  cursor: pointer;
+}

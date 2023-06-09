@@ -1,0 +1,28 @@
+.accordion-header {
+  display: flex;
+  gap: 1rem;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1rem;
+  border-bottom: 1px solid #bbb;
+  padding: 1rem;
+}
+
+.accordion-header_title {
+  flex-grow: 1;
+  color: rgba(17, 17, 48, 0.658);
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+.accordion-body {
+  padding-left: 2rem;
+}
+
+.active-content {
+  display: block;
+}
+
+.inactive-content {
+  display: none;
+}

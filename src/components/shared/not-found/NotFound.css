@@ -1,0 +1,18 @@
+.not-found-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+}
+
+.not-found-icon {
+  font-size: 3rem;
+  color: #777;
+}
+
+.not-found-message {
+  font-size: 1.3rem;
+  text-align: center;
+  padding: 0 1rem;
+}

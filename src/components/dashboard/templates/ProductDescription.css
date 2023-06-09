@@ -1,0 +1,16 @@
+.product-description_box {
+  background-color: #fff;
+  padding: 1rem;
+  border-radius: 1rem;
+}
+.product-description_title {
+  color: rgba(0, 0, 128, 0.582);
+  text-transform: uppercase;
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+.product-description_detail {
+  color: #444;
+  line-height: 1.6;
+  font-size: 1rem;
+}

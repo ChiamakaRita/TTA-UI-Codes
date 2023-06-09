@@ -1,0 +1,20 @@
+.landing-first-view_box {
+  min-height: 90vh;
+  background: linear-gradient(60deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.5)),
+    url("../../../static-assets/images/about-us-truck.png");
+  background-size: cover;
+  background-position: 25% 75%;
+  margin-top: -1px;
+}
+
+.own-truck_box-text > p {
+  color: #666;
+  line-height: 1.5rem;
+  font-size: 1.2rem;
+}
+
+@media screen and (max-width: 700px) {
+  .landing-first-view_box {
+    background-size: cover;
+  }
+}

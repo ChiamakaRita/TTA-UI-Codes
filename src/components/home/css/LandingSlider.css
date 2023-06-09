@@ -1,0 +1,121 @@
+.home {
+    background-color: var(--overlay);
+    color: #fff;
+    height: 70vh;
+    width: 100%;
+    position: relative;
+}
+
+.home:before {
+    content: '';
+    background: url('../../../assets/images/hero-truck-repair.jpeg') no-repeat center center/cover;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    filter: brightness(50%);
+    animation: change 10s infinite ease-in-out;
+}
+
+.home .content {
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 1100px;
+    margin: auto;
+}
+.btn-container{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.link{
+  border-radius: 5px;
+  background:#fff;
+  white-space: nowrap;
+  padding: 12px 45px;
+  color: #bb0509;
+  font-size: 24px;
+  font-weight: bold;
+  cursor: pointer;
+  text-decoration: none;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.2s ease-in-out;
+}
+
+.home .content p:first-child {
+   
+     font-size: 1.9rem;
+     margin-bottom: 5px;
+     font-weight: lighter;
+  
+}
+
+.home .content p:nth-child(2) {
+    font-size: 1.9rem;
+    font-weight: lighter;
+}
+
+.home .content p:nth-child(3) {
+    font-size: 4rem;
+    font-weight: 700;
+}
+
+@media screen and (max-width:940px) {
+  
+    .home .content p:nth-child(3) {
+        font-size: 2.6rem;
+    }
+
+    .home .content p:nth-child(4) {
+        font-size: 1.6rem;
+    }
+.content{
+    align-items: center;
+}
+
+}
+@media screen and (max-width: 600px){
+    .home{
+        width: 100%;
+        align-items: center;
+    }
+
+    .home .content p:nth-child(3){
+        align-items: center;
+        font-size: 1.6rem;
+        margin-top: 5px;
+    }
+}
+@keyframes change{
+    0%
+    {
+        background-image: url("../../../assets/images/truck-technician-image\ copy.jpg");
+    }
+    25%
+    {
+        background-image: url("../../../assets/images/Truck-Inspection.jpeg");
+    }
+    50%
+    {
+        background-image: url("../../../assets/images/hero-truck-repair\ copy.jpeg");
+    }
+    75%
+    {
+        background-image: url("../../../assets/images/truck-hero-img.jpg");
+    }
+    100%
+    {
+        background-image: url("../../../assets/images/home-section-img.jpg");
+    }
+    125%
+    {
+        background-image: url("../../../assets/images/truck-technician-image\ copy.jpg");
+    }
+}

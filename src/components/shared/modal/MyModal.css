@@ -1,0 +1,27 @@
+.modal-container {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.226);
+  z-index: 10;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-content {
+  width: 50%;
+  padding: 2rem;
+}
+
+.hide-modal {
+  width: 0;
+  transform: translateX(-100%);
+}
+
+@media screen and (max-width: 700px) {
+  .modal-content {
+    width: 85%;
+  }
+}

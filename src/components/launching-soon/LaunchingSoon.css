@@ -1,0 +1,30 @@
+.launching-soon-container {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin-top: 3rem;
+  padding: 2rem;
+}
+
+.launching-soon-title {
+  color: rgb(221, 21, 21);
+  font-weight: 600;
+  text-transform: capitalize;
+  letter-spacing: 1px;
+  font-size: 1.2rem;
+}
+
+.launching-soon-detail {
+  color: #666;
+  font-weight: 500;
+  letter-spacing: 1px;
+  font-size: 1rem;
+  line-height: 1.7;
+}
+
+.launching-soon-product {
+  color: rgb(10, 10, 87);
+  font-weight: 600;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}

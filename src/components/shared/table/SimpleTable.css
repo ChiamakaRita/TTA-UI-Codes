@@ -1,0 +1,27 @@
+.th-style {
+  color: rgb(49, 49, 75);
+  font-weight: 600;
+  font-variant: small-caps;
+  font-size: 1.2rem;
+  white-space: nowrap;
+}
+
+.simple-table-container {
+  max-width: 100%;
+}
+
+.simple-table-container::-webkit-scrollbar {
+  display: none;
+}
+
+tbody {
+  white-space: nowrap;
+}
+
+.under-data {
+  display: block;
+  color: #777;
+  opacity: 0.6;
+  font-size: 0.8rem;
+  margin-top: 5px;
+}

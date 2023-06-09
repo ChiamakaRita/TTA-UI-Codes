@@ -1,0 +1,68 @@
+.investor-apply-container {
+  background-position: 70% 30%;
+  background-repeat: no-repeat;
+  background-image: linear-gradient(
+      45deg,
+      rgba(0, 0, 0, 0.695),
+      rgba(0, 0, 0, 0.495)
+    ),
+    url("../../static-assets/images/become-investor.jpg");
+  min-height: 70vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: -1px;
+  margin-bottom: 1rem;
+}
+
+.investor-apply-card {
+  padding: 2rem;
+  text-align: center;
+  width: 50%;
+}
+
+.investor-apply-card h2 {
+  font-family: "Roboto";
+  border-bottom: 1px solid rgba(255, 255, 255, 0.295);
+  text-transform: uppercase;
+  font-size: 1.5rem;
+  color: rgba(255, 255, 255, 0.822);
+}
+
+.investor-apply-card p {
+  font-family: "Roboto";
+  font-size: 1.4rem;
+  color: #fff;
+  line-height: 1.5;
+}
+
+.investor-apply-card button {
+  border: none;
+  padding: 1rem 2rem;
+  background-color: rgba(255, 68, 0, 0.863);
+  color: white;
+}
+
+.investor-apply-card button:hover {
+  background-color: rgba(255, 68, 0, 1);
+}
+
+.comeleft {
+  animation: comeleft 1s 100ms backwards;
+  animation-timing-function: ease-in-out;
+}
+
+@media screen and (max-width: 700px) {
+  .investor-apply-card {
+    width: 80%;
+  }
+}
+
+@keyframes comeleft {
+  from {
+    transform: translateX(40rem);
+  }
+  to {
+    transform: translateX(0);
+  }
+}

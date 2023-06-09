@@ -1,0 +1,32 @@
+.tab-key {
+  display: flex;
+  overflow-x: scroll;
+}
+
+.tab-key::-webkit-scrollbar {
+  display: none;
+}
+
+.tab-key_item {
+  background-color: #fff;
+  padding: 5px;
+  text-align: center;
+  font-size: 1rem;
+  border: 1px solid #eef;
+  cursor: pointer;
+  white-space: nowrap;
+  width: 100%;
+}
+
+.tab-key_item:last-child {
+  border-right: 1px solid #eef;
+}
+
+.tab-key_item:first-child {
+  border-left: 1px solid #eef;
+}
+
+.tab-key_item-active {
+  background-color: rgba(16, 16, 90, 0.795);
+  color: #eee;
+}
